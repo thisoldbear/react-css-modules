@@ -1,0 +1,21 @@
+.example {
+  padding: 10px;
+  background: blanchedalmond;
+}
+
+.example__inner {
+  padding: 20px;
+  border: 1px solid orange;
+
+  .example--rounded & {
+    border-radius: 7px;
+  }
+}
+
+.example__nested {
+  border: 2px dashed lime;
+
+  & + & {
+    margin: 10px 0 0;
+  }
+}

@@ -1,0 +1,24 @@
+.example {
+  padding: 10px;
+  background: purple;
+  color: palegreen;
+
+  &--rounded {
+    margin: 1px;
+    border-radius: 10px;
+  }
+
+  &--inverted {
+    background: palegreen;
+    color: purple;
+  }
+}
+
+.example__inner {
+  padding: 20px;
+  border: 1px solid orange;
+
+  .example--rounded & {
+    border-radius: 7px;
+  }
+}

@@ -1,25 +1,44 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import "./App.scss";
+
+import ExampleOne from "./components/ExampleOne/ExampleOne";
+import ExampleTwo from "./components/ExampleTwo/ExampleTwo";
+import ExampleThree from "./components/ExampleThree/ExampleThree";
+import ExampleFour from "./components/ExampleFour/ExampleFour";
+import ExampleFive from "./components/ExampleFive/ExampleFive";
+import ExampleSix from "./components/ExampleSix/ExampleSix";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>CSS Modules</h1>
+
+      <p>
+        Examples of using{" "}
+        <a href="https://github.com/css-modules/css-modules">CSS Modules</a>{" "}
+        with <a href="https://github.com/JedWatson/classnames">Classnames</a> to
+        add scoped and conditionally overridable styles.
+      </p>
+
+      <ExampleOne />
+
+      <ExampleTwo />
+
+      <ExampleThree />
+
+      <ExampleFour />
+
+      <ExampleFour rounded />
+
+      <ExampleFour inverted />
+
+      <ExampleFour rounded inverted />
+
+      <ExampleFive />
+
+      <ExampleSix />
+    </>
   );
 }
 
