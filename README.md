@@ -2,6 +2,8 @@
 
 Examples of using [CSS Modules](https://github.com/css-modules/css-modules) with [Classnames](https://github.com/JedWatson/classnames) to add scoped and conditionally applied/overwritten styles.
 
+[Live Demo](https://codesandbox.io/s/github/thisoldbear/react-css-modules)
+
 ### Development
 
 To install dependencies, run:

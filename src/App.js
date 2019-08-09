@@ -21,6 +21,8 @@ function App() {
         add scoped and conditionally overridable styles.
       </p>
 
+      <p>View source on <a href="https://github.com/thisoldbear/react-css-modules">GitHub</a>.</p>
+
       <ExampleOne />
 
       <ExampleTwo />
